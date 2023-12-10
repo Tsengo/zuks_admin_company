@@ -1,0 +1,51 @@
+@keyframes ldio-tv4ple4ixz-o {
+    0%    { opacity: 1; transform: translate(0 0) }
+   49.99% { opacity: 1; transform: translate(60px,0) }
+   50%    { opacity: 0; transform: translate(60px,0) }
+  100%    { opacity: 0; transform: translate(0,0) }
+}
+@keyframes ldio-tv4ple4ixz {
+    0% { transform: translate(0,0) }
+   50% { transform: translate(60px,0) }
+  100% { transform: translate(0,0) }
+}
+.ldio-tv4ple4ixz div {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  top: 60px;
+  left: 20px;
+}
+.ldio-tv4ple4ixz div:nth-child(1) {
+  background: #161515;
+  animation: ldio-tv4ple4ixz 1s linear infinite;
+  animation-delay: -0.5s;
+}
+.ldio-tv4ple4ixz div:nth-child(2) {
+  background: #1c5056;
+  animation: ldio-tv4ple4ixz 1s linear infinite;
+  animation-delay: 0s;
+}
+.ldio-tv4ple4ixz div:nth-child(3) {
+  background: #161515;
+  animation: ldio-tv4ple4ixz-o 1s linear infinite;
+  animation-delay: -0.5s;
+}
+
+.loadingio-spinner-dual-ball-0boqan1hao4t {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  overflow: hidden;
+  
+}
+.ldio-tv4ple4ixz {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-tv4ple4ixz div { box-sizing: content-box; }

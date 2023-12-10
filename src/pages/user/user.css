@@ -1,0 +1,120 @@
+.user {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(250, 246, 253, 0.11);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  overflow: hidden;
+ 
+}
+.userContainer {
+  display: flex;
+  align-items: center;
+  gap:40px;
+
+}
+
+.userShowBottom {
+  display: flex;
+  flex-direction: column;
+  width:400px;
+  padding:20px;
+
+}
+.userShowInfo {
+  display: flex;
+  align-items: center;
+  color: #faf7f7;
+  padding:10px;
+}
+
+.userUpdate {
+    padding:30px;
+ 
+}
+
+.userShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.userShowTopTitle {
+  display: flex;
+  align-items: center;
+  gap:5px;
+  margin-left: 20px;
+  padding:10px;
+}
+.userShowUsername {
+  font-weight: 600;
+}
+.userShowUserTitle {
+  font-weight: 300;
+}
+
+.userShowTitle {
+  font-style: 14px;
+  font-weight: 600;
+  color: rgb(240, 236, 236);
+  padding:10px;
+}
+
+.userShowIcon {
+  font-size: 16px !important;
+}
+.userShowInfoTitle {
+  margin-left: 10px;
+}
+.userUpdateTitle {
+  font-style: 24px;
+  font-weight: 600;
+}
+.userUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.userUpdateInput {
+  width: 100%;
+  padding: 30;
+}
+.userUpdateForm {
+   padding:10px;
+  margin-top: 20px;
+}
+.userUpdateRight {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+.userUpdateUpload {
+  display: flex;
+  align-items: center;
+  padding:20px;
+}
+.userUpdateImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.userUpdateIcon {
+  cursor: pointer;
+}
+.userUpdateButton {
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  background-color: rgba(151, 155, 160, 0.171);
+ 
+}
+

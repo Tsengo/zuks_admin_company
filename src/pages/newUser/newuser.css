@@ -1,0 +1,113 @@
+
+.newUserContainer {
+  background-color: #a3a0a034;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  overflow: hidden;
+}
+
+.newUser {
+  flex: 2.5;
+  
+}
+.newUserForm {
+  width: 100%;
+}
+.newUserItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.newUserItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(177, 175, 175);
+}
+
+.newUserItem .error {
+  color: red;
+}
+.newUserItem .inputerror {
+  border: 2.4px solid red;
+}
+.newUserItem .inputsuccess {
+  border: 2.4px solid green;
+}
+
+.newUserItem .greenClass {
+  color: green;
+}
+
+.newUserItem .passworderror {
+  padding: 2px;
+  border: 1px solid black;
+  word-wrap: break-word;
+  background-color: #555;
+}
+.newUserGender > input {
+  margin-top: 14px;
+}
+.newUserGender > label {
+  margin: 10px;
+  font-size: 18px;
+  color: #555;
+}
+.newUserSelect {
+  height: 40px;
+  border-radius: 5px;
+}
+
+.userUpdateUpload .userUpdateImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 5px solid rgb(153, 121, 16);
+  object-fit: cover;
+}
+
+.avatarContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 120px);
+  padding-top: 30px;
+  overflow-y: scroll;
+
+  height: 50vh;
+  margin-right: 20px;
+}
+.avatarContainer::-webkit-scrollbar {
+  width: 10px;
+}
+
+.avatarContainer::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(14, 13, 13);
+  border-radius: 10px;
+}
+
+/* Handle */
+.avatarContainer::-webkit-scrollbar-thumb {
+  background: rgb(44, 36, 163);
+  border-radius: 10px;
+}
+
+.avatarItem {
+  padding: 10px;
+  position: relative;
+}
+
+.avatarItem img:hover {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(10px);
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.avatarItem .successAvatar {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%) translateZ(0);
+}

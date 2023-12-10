@@ -1,0 +1,97 @@
+.topbar{
+  width:100%;
+  height:70px;
+  -webkit-backdrop-filter: blur(15px) !important;
+    backdrop-filter: blur(10px) !important;
+  position:sticky;
+  top:0;
+  z-index:999;
+  border-bottom: 0.7px solid rgb(4, 65, 80);
+}
+.Color{
+    color:rgb(209, 200, 200);
+}
+.topLeft{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.topbarWrapper{
+    height: 100%;
+    padding:0px 20px;
+    
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.logo{
+    font-weight:bold;
+    font-size:30px;
+     color: aqua;
+}
+.topRight{
+    display: flex;
+    align-items: center;
+}
+.topbarIconContainer{
+    position:relative;
+    width:20px;
+    height: 20px;
+    cursor:pointer;
+    margin-right:10px;
+    color:#555;
+    border: 1px solid #063166;
+    border-radius: 8px;
+    padding:4px;
+    padding-right:7px;
+    padding-bottom:8px;
+    
+}
+.topbarIconContainerIcon{
+    color:#13b2fce3;
+}
+.themeIcon{
+    position:absolute;
+    padding:5px;
+    margin-top:4px;
+    right:-1em;
+    border-radius:12px;   
+  
+}
+.topIconBag{
+    width: 15px;
+    height: 15px;
+    position:absolute;
+    top: -5px;
+    right:0px;
+    background-color: red;
+    color:white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+   
+}
+
+
+.topAvatar{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+
+.themeIcon{
+    background-color: #08192e;
+    border: 1px solid #1b3055;
+
+}
+.hidden{
+    display: none;
+}
+.themeIconHidden{
+    display:none;
+}

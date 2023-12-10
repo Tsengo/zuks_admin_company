@@ -1,0 +1,134 @@
+.product{
+  
+    background: rgba(255, 255, 255, 0.918);
+}
+
+.productTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      
+}
+.productInfo{
+    width:40%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.productInfoItem{
+    width:100%;
+    display:flex;
+    padding:10px 0px 6px;
+    align-items: center;
+    gap:5px;
+    font-size: 22px;
+}
+.productAddButton{
+    width: 80px;
+    border:none;
+    padding:5px;
+    background-color:teal;
+    color:white;
+    border:5px;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+.productTop{
+    display: flex;
+    
+}
+
+.productInfoImg{
+    width:150px;
+    height:150px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 12px;
+}
+.productInfoTop {
+    width:80%;
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    max-height: 600px;
+    grid-gap:20px;
+    justify-items: end;
+    overflow: auto;
+    
+ 
+  }
+  .productInfoImgDiv{
+    position:relative;
+  }
+.deleteImagespan{
+    position:absolute;
+    padding:10px;
+    cursor: pointer;
+    
+     
+}
+.productInfoValue{
+    font-weight: 300;
+}
+
+.productBottom{
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0,0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+}
+.productForm{
+    display: flex;
+    justify-content: space-between;
+
+}
+.productFormLeft{
+   display: grid;
+   grid-template-columns: repeat(5,200px);
+   grid-gap:10px;
+}
+
+.productFormLeft >label{
+    margin-bottom: 10px;
+     color:gray;
+}
+.productFormLeft >input{
+    margin-bottom:10px;
+    border:none;
+    padding:5px;
+    border-bottom:1px solid gray;
+}
+
+.productFormLeft >select{
+ margin-bottom: 10px;
+}
+
+.productUploadImg{
+    width:100px;
+    height:100px;
+    border-radius: 30px;
+    
+    object-fit: cover;
+    margin-right: 20px;
+}
+.productFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.productUpload{
+    display: flex;
+    align-items: center;
+}
+
+.productButton{
+    border:none;
+    padding: 5px;
+    border-radius:5px;
+    background-color:darkgreen;
+    color:white;
+    font-weight: 600;
+    cursor:pointer;
+}
